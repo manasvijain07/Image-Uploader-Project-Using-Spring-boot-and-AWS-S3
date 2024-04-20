@@ -1,0 +1,10 @@
+package exceptions;
+
+public class ImageUploaderException extends RuntimeException{
+
+	public ImageUploaderException(String string) {
+		// TODO Auto-generated constructor stub
+		super.getMessage();
+	}
+
+}
